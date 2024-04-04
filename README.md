@@ -210,7 +210,7 @@ Outputs:
 ```
 db.listings.find().limit(10).pretty()
 ```
-
+(List 3 of them for easier to read)
 ```
 [
   {
@@ -449,7 +449,7 @@ db.listings.find().limit(10).pretty()
 ```
 
 
-3.Choose two hosts (by reffering to their host_id values) who are superhosts (available in the host_is_superhost field), and show all of the listings offered by both of the two hosts.
+3. Choose two hosts (by reffering to their host_id values) who are superhosts (available in the host_is_superhost field), and show all of the listings offered by both of the two hosts.
 Hosts I chose: the two whose host_id are (6466841, 10776491)
 ```
 db.listings.find(
@@ -613,7 +613,7 @@ Output:
 ]
 ```
 
-5.Find all of the places that have more than 2 beds in a neighborhood of your choice (referred to as either the neighborhood or neighbourhood_group_cleansed fields in the data file), ordered by review_scores_rating descending.
+5. Find all of the places that have more than 2 beds in a neighborhood of your choice (referred to as either the neighborhood or neighbourhood_group_cleansed fields in the data file), ordered by review_scores_rating descending.
 
 ```mongodb
 db.listings.find(
